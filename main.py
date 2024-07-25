@@ -277,7 +277,7 @@ max_capacity_entry.pack(pady=5)
 tk.Label(input_frame, text="OpenRouteService API KEY:", font=label_font).pack(pady=5)
 API_KEY_entry = tk.Entry(input_frame, font=label_font)
 API_KEY_entry.pack(pady=5)
-API_KEY_entry.insert(0, "5b3ce3597851110001cf62487e3957d959eb47868557dbf14f41bcf1")  # ตั้งค่า Default API Key
+API_KEY_entry.insert(0, "")  # ตั้งค่า Default API Key
 
 
 # สร้าง Frame สำหรับปุ่ม
